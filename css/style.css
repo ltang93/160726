@@ -1,0 +1,123 @@
+body{
+	width:960px;
+	margin:0 auto;
+	text-align: center;
+}
+.header h1{
+	letter-spacing: 4px;
+}
+.header ul{
+	overflow: hidden;
+	list-style: none;
+	display:inline-block;
+}
+.header li{
+	float: left;
+	padding:0 25px;
+	border-right: 1px solid black;
+}
+.header li:last-child{
+	border-right: 0px;
+}
+.nav{
+	display: inline-block;
+	margin: 0;
+}
+.nav_left ul{
+	overflow: hidden;
+	list-style: none;
+	display: inline;
+}
+.nav_left li{
+	float: left;
+	padding:0 10px;
+	border-right: 1px solid black;
+}
+.nav_right{
+	overflow: hidden;
+}
+.nav_right .content{
+	float: right;
+	margin-left: 360px;
+}
+.nav_right .content input{
+	background-image: url(../img/search.jpg);
+	background-position: right center;
+	background-repeat: no-repeat;
+	border:1px solid black;
+}
+.banner img{
+	width: 100%;
+}
+.info span{
+	font-size: 30px;
+	font-weight: bold;
+}
+.content{
+	list-style: none;
+	display: inline-block;
+}
+.content ul{
+	overflow: hidden;
+}
+.content>li{
+	float:left;
+	margin: auto 10px;
+}
+.content_1{
+	font-weight: bold;
+	text-align: left;
+	list-style: none;
+}
+.content_1>li{
+	padding-top: 20px;
+}
+.content_1 .select{
+	color: purple;
+	font-size: 150%;
+	border-bottom: 2px solid purple;
+}
+.content_2{
+	border: 1px solid black;
+	height: 170px;
+	padding: 5px;
+}
+.content_2 p{
+	padding: 15px 5px;
+	border-bottom: 1px solid black;
+}
+.content_3 ul{
+	padding: 0;
+}
+.content_3 p{
+	font-size: 20px;
+}
+.content_3 ul{
+	color: gray;
+}
+.content_3 a{
+	color: purple;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.content_4 img{
+	width: 100%;
+}
+.footer{
+	overflow: hidden;
+	background-color: lightgray;
+}
+.footer h1{
+	float: left;
+}
+.footer ul{
+	overflow: hidden;
+	list-style: none;
+	margin-left: 700px;
+	margin-top: 30px;
+}
+.footer ul li{
+	float: left;
+	margin: 0 10px;
+}
